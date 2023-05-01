@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+.main {
+    position: relative;
+    background-image: url('../images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.center {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.icons-social {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    padding: 0 2%; 
+    z-index: 2;
+}
+
+.icons-social a {
+    padding: 0 5px;
+    font-size: 20px;
+    color: white;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-bottom: 2px solid white;
+    z-index: 2;
+}
+
+.logo h2 {
+    font-size: 20px;
+    color: white;
+
+}
+
+header .desktop ul {
+    list-style-type: none;
+}
+
+.desktop ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.desktop ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+.icon-menu {
+    display: none;
+}
+
+.content {
+    position: relative;
+    padding: 200px 2%;
+    z-index: 2;
+}
+
+.content h2 {
+    color: white;
+    font-size: 47px;
+    font-weight: lighter;
+}
+
+.content p {
+    max-width: 800px;
+    padding-top: 10px;
+    color: white;
+    font-weight: lighter;
+}
+
+.content h2 > span {
+    color: rgb(36, 134, 214);
+}
+
+.content button {
+    margin-top: 25px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(36, 134, 214);
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(210, 210, 210);
+}
+
+.title h2 {
+    color: rgb(36, 134, 214);
+    text-transform: uppercase;
+    font-weight: lighter;
+    border-top: 2px solid rgb(36, 134, 214);
+}
+
+
+.box-wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 2%;
+}
+
+.box-single {
+    width: 30%;
+    border: 1px solid rgb(122, 118, 118);
+    -webkit-box-shadow: 11px 13px 5px -6px rgba(0,0,0,0.39);
+    -moz-box-shadow: 11px 13px 5px -6px rgba(0,0,0,0.39);
+    box-shadow: 11px 13px 5px -6px rgba(0,0,0,0.39);
+}
+
+.single-box-title {
+    padding: 15px 0;
+    background-color: rgb(36, 134, 214);
+    text-align: center;
+}
+
+.single-box-title h2 {
+    color: white;
+    font-weight: lighter;
+}
+
+.list {
+    padding: 50px 0;
+}
+
+.list i {
+    padding-right: 10px;
+}
+
+.list p {
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 17px;
+    color: #777;
+}
+
+.price {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.price h2 {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #777;
+    border-top: 1px solid rgb(122, 118, 118);
+}
+
+.about {
+    position: relative;
+    background-image: url('../images/bg1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.about > .center {
+    position: relative;
+    z-index: 2;
+}
+
+.about h2 {
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.about span {
+    color: rgb(36, 134, 214);
+}
+
+.about p {
+    padding: 20px 2%;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: lighter;
+    color: white;
+    z-index: 1;
+}
+
+section.contato {
+    display: flex;
+    padding: 40px 2%;
+}
+
+.form {
+    width: 50%;
+}
+.form span {
+    border-top: 1px solid black;
+}
+
+.form input[type=text], input[type=email] {
+    width: 80%;
+    margin-top: 20px;
+    padding: 15px 0;
+}
+
+.form textarea {
+    width: 80%;
+    height: 150px;
+    margin-top: 20px;
+    resize: none;
+}
+
+.form button {
+    padding: 10px 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #777;
+    cursor: pointer;
+    background-color: rgb(36, 134, 214);
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.time {
+    width: 50%;
+}
+
+.time span {
+    border-top: 1px solid black;
+}
+
+.card-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.single-card {
+    width: 45%;
+    min-height: 240px;
+    border: 1px solid #777;
+    -webkit-box-shadow: 11px 13px 5px -6px rgba(0,0,0,0.39);
+    -moz-box-shadow: 11px 13px 5px -6px rgba(0,0,0,0.39);
+    box-shadow: 11px 13px 5px -6px rgba(0,0,0,0.39);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.img-pessoa {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url("../images/luffy.jpg");
+    background-size: cover;
+}
+
+.info-pessoa {
+    font-size: 17px;
+    font-weight: lighter;
+    width: 80%;
+}
+
+.card-content {
+    padding: 10px 10px;
+}
+
+.card-content p {
+    color: #999999;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+    border-top: 1px solid #777;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+
+    .desktop {
+        display: none;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .content p {
+        text-align: justify;
+    }
+
+    .icon-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .box-wrap {
+        padding: 50px 2%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box-single {
+        width: 60%;
+        margin-top: 20px;
+        border: 1px solid rgb(122, 118, 118);
+    }
+
+    section.contato {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .time {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-wraper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .single-card {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}

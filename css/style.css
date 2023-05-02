@@ -310,6 +310,22 @@ section.contato {
     padding-top: 10px;
 }
 
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(210, 210, 210);
+}
+
+footer h2 {
+    color: white;
+    font-size: 20px;
+}
+
+footer p {
+    color: white;
+    font-size: 17px;
+}
+
 @media screen and (max-width:768px) {
 
     .desktop {
